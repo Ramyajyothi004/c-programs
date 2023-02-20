@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main(){
+int n,ele,i,l;
+Scanf("%d",&n);
+i=1;
+l=1;
+While(i<=n)
+{
+Scanf("%d",&ele);
+if(i==1) l=ele;
+if (ele<h)
+h=ele;
+i++;
+}
+printf("Lowest=%d",h);
+return 0;
+}
