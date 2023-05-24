@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+int a[50],b[50],c[100],i;
+printf("Enter 1st array elements: \n");
+for(i=0;i<3;i++)
+{
+scanf("%d",&a[i]);
+}
+printf("Enter 2nd array elements: \n");
+for(i=0;i<3;i++){
+scanf("%d",&b[i]);}
+printf("After merging elementsof array:");
+for(i=0;i<3;i++){
+c[i]=a[i];
+c[i+3]=b[i];}
+for(i=0;i<6;i++)
+printf("%d ",c[i]);
+}
