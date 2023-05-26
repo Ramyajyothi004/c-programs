@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+char str[100],temp,org[100];
+int i,j;
+printf("Enter string name:");
+gets(str);
+i=0;
+j=0;
+j=strlen(str)-1;
+strcpy(org,str);
+while(i<j)
+{{
+temp=str[i];
+str[i]=str[j];
+str[j]=temp;
+i++;
+j--;
+}
+printf("\n Reverse string is:%s",str);
+}
+printf("\n original string is:%s",org);
+}
